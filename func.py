@@ -2,10 +2,10 @@
 
 # função para retornar pro sobre-nos ou terminar
 def retornopequeno():
-    resposta = input("gostaria de saber algo mais? y/n \n")
-    if resposta == 'y':
+    resposta = input("gostaria de saber algo mais? sim/não \n")
+    if resposta == 'sim':
         return
-    elif resposta == 'n':
+    elif resposta == 'não':
         print(f'Obrigado por entrar em contato conosco!\n'
               f'Volte sempre!')
         exit()
